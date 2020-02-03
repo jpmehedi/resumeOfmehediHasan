@@ -1,0 +1,199 @@
+/* including any import file such as google fonts */
+@import url('');
+
+
+/* start basic typhography of css  */
+*{margin:0;padding:0;}
+* {box-sizing:border-box}
+body{font-family:Sans-Serif, Arial;-webkit-transition:all 0.3s ease;transition:all 0.3s ease;}
+img{width:100%;height:auto;}
+a{text-decoration:none;}
+.container_full{width:100%; height:auto;    background: #DBDBDB}
+.container{width:960px;margin:0 auto;display:block;}
+.fix{overflow:hidden;} 
+a:visited{color:inlineblue;}
+a:focus{background:orange;}
+.aligncenter{display:block;margin:0 auto;}
+h1, h2, h3, h4, h5, h6{margin:30px 0;}
+p{line-height:150%;margin:1.5em;}
+.floatleft{float:left;}
+.floatright{float:right;}
+/* end basic typhography  */
+.profileSkilSection{
+	height:250px;
+	background:#14A1BC;
+	overflow:none;
+}
+.profileSkilSection .profilePic{
+    width: 300px;
+    height: 250px;
+    float: left;
+    background: #093041;
+	margin-left: 15px;
+}
+.profileSkilSection .profilePic img{
+	width: 192px;
+    height: 208px;
+    margin-left: 50px;
+    margin-top: 22px;
+    border: 2px solid #09778C;
+
+}
+.profileSkilSection .skill{
+	width:600px;
+	height:100px;
+	float:right;
+	display:block;
+}
+.skillWrap{
+	width:600px;
+	height:50px;
+}
+.skill .skilContent{
+	width:200px;
+	height:50px;
+	float:left;
+	margin-right:100px;
+	margin-bottom: 8px;
+}
+
+.skillsContainer {
+  width: 100%;
+  background-color: #178da3; 
+}
+.skilContent p{
+	margin:2px;
+	color:#fff;
+	text-transform:uppercase;
+} 
+.skill h2{
+	color:#fff;
+	font-family:arial;
+	font-weight:bold;
+	margin-bottom: 10px;
+	    margin-top: 16px;text-decoration: underline;
+}
+.skills {
+  text-align: right; 
+  padding-top: 2px;
+  padding-bottom: 2px; 
+  color: #fff;
+}
+
+.flutter {width: 80%; background-color: #09778c;} 
+.dart {width: 75%; background-color: #09778c;} 
+.html {width: 90%; background-color: #09778c;} 
+.javascript {width: 60%; background-color: #09778c;} 
+.bootstrap {width: 65%; background-color: #09778c;} 
+.php {width: 70%; background-color: #09778c;} 
+
+
+.trainingAboutAddressFollowSection{
+	height:800px;
+	background:#fff;
+}
+.trainingAboutAddressFollowSection .leftSection{
+	width:300px;
+	height:800px;
+	float:left;
+	background: #093041;
+	    margin-left: 15px;
+}
+.trainingAboutAddressFollowSection .leftSection .address{
+	padding:10px;
+}
+.trainingAboutAddressFollowSection .leftSection .address h2{
+	font-family:arial;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+	text-align: center;
+	
+}
+.trainingAboutAddressFollowSection .leftSection .address h3{
+	font-family:arial;
+	font-weight:bold;
+	text-transform:uppercase;
+	color:#fff;
+}
+.trainingAboutAddressFollowSection .leftSection .address p{
+	font-family:arial;
+	font-weight:bold;
+	color:#fff;
+	margin:0px;
+}
+.trainingAboutAddressFollowSection .leftSection .about h2{
+font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.trainingAboutAddressFollowSection .leftSection .followMe h2{
+font-family: arial;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    border: 1px solid #ddd;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+.trainingAboutAddressFollowSection .rightSection{
+	width:600px;
+	height:800px;
+	float:left;
+}
+.hobbisEducationInterest{
+	height:600px;
+	background:gray;
+}
+.hobbisEducationInterest .hobbisInterset{
+	height:600px;
+	width:300px;
+	float:left;
+}
+.hobbisEducationInterest .rightEducationQualification{
+	width:600px;
+	height:600px;
+	float:left;
+}
+.workingCapability{
+	background:blue;
+	height:200px;
+}
+.workingCapability .workingCapabilityLeft{
+	float:left;
+	width:300px;
+	height:200px;
+}
+.workingCapability .workingCapabilityRight .workingCapabilityContent{
+	float:left;
+	width:120px;
+	height:200px;
+	
+}
+.reference{
+	background:#ddd;
+	height:200px;
+}
+.reference .leftReference{
+	float:left;
+	height:200px;
+	width:450px;
+	
+}
+.reference .rightReference{
+	float:left;
+	height:200px;
+	width:450px;
+	
+}
+
+
+
